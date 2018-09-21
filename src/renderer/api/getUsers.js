@@ -36,6 +36,7 @@ export function addUser(data) {
     data
   })
 }
+// 11122dd
 export function UserIfExist(name) {
   return request({
     url: 'users/hasusername',
